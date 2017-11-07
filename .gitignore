@@ -1,0 +1,10 @@
+.bundle
+vendor
+*.bak
+*.swp
+*.log
+*/test*
+Gemfile*
+leaflet/lib
+_plugins/
+_site/
