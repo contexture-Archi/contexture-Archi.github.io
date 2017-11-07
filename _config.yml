@@ -16,7 +16,7 @@ tagline:
   fr: "Conseil et expertise"
   en: "Advice and expertise"
 
-email: your-email@domain.com
+email: info.contexture@gmail.com 
 
 description:
   en: English description of the web
@@ -30,7 +30,7 @@ feed:
   fr: /flux.xml
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://contexture-archi.github.io/" # the base hostname & protocol for your site
 
 twitter_username: jekyllrb
 github_username:  jekyll
