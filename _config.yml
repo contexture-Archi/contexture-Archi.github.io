@@ -12,10 +12,10 @@ title:
   fr: Contexture | Architecture & Énergétique
 
 tagline:
-  fr: "Conseil et expertise"
-  en: "Advice and expertise"
+  fr: "Créativité, rationalité, pluridisciplinarité et conscience professionnelle"
+  en: "Créativité, rationalité, pluridisciplinarité et conscience professionnelle"
 
-email: info.contexture@gmail.com 
+email: info.contexture@gmail.com
 
 description:
   en: English description of the web
@@ -31,12 +31,17 @@ feed:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://contexture-archi.github.io/" # the base hostname & protocol for your site
 
-twitter_username: jekyllrb
-github_username:  jekyll
-
 # Build settings
 markdown: kramdown
 
 sass:
   sass_dir: _sass
   style: :nested
+
+social:
+- {icon: 'twitter', link: 'https://twitter.com/ContextureArchi'}
+- {icon: 'instagram', link: 'https://www.instagram.com/contextureArchi/'}
+- {icon: 'linkedin', link: 'http://be.linkedin.com/pub/helene-montfort/76/294/774'}
+- {icon: 'linkedin', link: 'http://be.linkedin.com/pub/jérôme-evrard/51/58a/95b'}
+- {icon: 'flickr', link: 'https://www.flickr.com/photos/sharlo1982'}
+- {icon: 'envelope', link: 'mailto: info.contexture@gmail.com'}
