@@ -5,27 +5,15 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li>{{ site.title[page.lang] }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li> Tél. {{ site.phone }}</li>
+          <li> GSM Hélène MONTFORT {{ site.data.settings.gsm1 }}</li>
+          <li> GSM Jérôme EVRARD {{ site.data.settings.gsm2 }}</li>
         </ul>
       </div>
 
-      <footer class="footer">
-        {% for item in site.data.settings.social %}
-          <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
-        {% endfor %}
-        <div class="post-date">{{ site.tagline.en }} by {{ site.data.settings.author.name }}</div>
-      </footer>
-
       <div class="footer-col footer-col-2">
         <ul class="social-media-list">
-
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
 
           {% for item in site.social %}
             <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
@@ -34,10 +22,10 @@
         </ul>
       </div>
 
-
-
       <div class="footer-col footer-col-3">
-        <p>{{ site.description[page.lang] }}</p>
+        <footer class="footer">
+          <div class="post-date">{{ site.tagline.en }} by {{ site.data.settings.author.name }}</div>
+        </footer>
       </div>
     </div>
 
